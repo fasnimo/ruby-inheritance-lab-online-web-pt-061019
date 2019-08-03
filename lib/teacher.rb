@@ -5,6 +5,7 @@ class Teacher <User
   def teach(string)
     string = knowledge.all.map do |st|
       st.join
+    end
   end
 
 end
