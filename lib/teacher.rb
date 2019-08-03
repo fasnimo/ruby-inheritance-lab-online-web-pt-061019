@@ -4,7 +4,7 @@ class Teacher <User
 
   def teach
     KNOWLEDGE.map do |st|
-      st.join
+      st.to_a.join
     end
   end
 
