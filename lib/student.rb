@@ -1,4 +1,4 @@
-class Student < User
+class Student
   attr_accessor :first_name, :last_name
 
   def initialize
