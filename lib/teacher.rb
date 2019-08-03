@@ -4,7 +4,7 @@ class Teacher <User
 
   def teach
     KNOWLEDGE.rand.map do |st|
-      
+
     end
   end
 
