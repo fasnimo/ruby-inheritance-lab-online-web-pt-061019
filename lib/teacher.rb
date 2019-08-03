@@ -4,7 +4,7 @@ class Teacher <User
 
   def teach
     KNOWLEDGE.sample do |st|
-
+        st.knowledge
     end
   end
 
