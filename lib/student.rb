@@ -7,6 +7,6 @@ class Student < User
   end
 
   def learn("KNOWLEDGE")
-      
-  end 
+
+  end
 end
